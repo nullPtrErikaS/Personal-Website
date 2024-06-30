@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sy, E. - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1 style="color: black;">Table of Contents</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1 style="color: black;">Hello, I'm Erika Sy</h1>
+        <p style="color: black;">Welcome to my personal website!</p>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <pre>Hi!
+
+My tech journey began with my love for sandbox games, where I discovered the joy of letting my creativity run free. 
+I also enjoy puzzle games and can solve a 3x3 Rubik's Cube.
+
+I'm a Computer Science student at the University of Wisconsin, Madison, graduating in May 2026.
+My primary interest is Software Development, though I am enthusiastic about all areas within the CS field.
+
+At UIC, I was actively involved in the tech community, holding four board positions and participating in one research role.
+
+I'm excited to find a 2025 internship in software development and research where I can meet new people, apply my skills, and continue to grow.</pre>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>[Projects]</p>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>[Blog posts]</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: ebasy22@gmail.com</p>
+        <p>LinkedIn: <a href="[LinkedIn URL]">https://www.linkedin.com/in/erika-sy/</a></p>
+    </section>
+    <footer>
+        <p style="color: black;">&copy; 2024 Erika Sy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
